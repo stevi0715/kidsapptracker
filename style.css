@@ -83,5 +83,13 @@ body#sam h1 {
 }
 body#sam .profile {
   background: #e6f2ff;
+  }
+button.reset-tasks {
+  background: #4caf50; /* green */
+}
+button.reset-all {
+  background: #f44336; /* red */
+}
   border-color: #1c3f94;
 }
+
