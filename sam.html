@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sam’s Tasks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="sam">
+  <h1>Sam’s Task List</h1>
+
+  <div class="profile">
+    <!-- Manchester City crest -->
+    <img src="C:\Users\GROSSES\OneDrive - FUJITSU\Desktop\Kids task app\images\mancitycrest.png" alt="Manchester City Crest" class="profile-icon">
+
+    <h2 id="kidName">Sam (Points: <span id="points">0</span>)</h2>
+    <ul>
+      <li><input type="checkbox" onclick="toggleTask(this)"> Task 1</li>
+      <li><input type="checkbox" onclick="toggleTask(this)"> Task 2</li>
+      <li><input type="checkbox" onclick="toggleTask(this)"> Task 3</li>
+      <li><input type="checkbox" onclick="toggleTask(this)"> Task 4</li>
+      <li><input type="checkbox" onclick="toggleTask(this)"> Task 5</li>
+    </ul>
+    <input type="number" id="spend" placeholder="Spend points">
+    <button onclick="spendPoints()">Spend</button>
+  </div>
+
+  <button onclick="resetTasks()">Reset for Next Day</button>
+  <a href="index.html"><button>Back to Menu</button></a>
+
+  <script src="script.js"></script>
+</body>
+</html>
