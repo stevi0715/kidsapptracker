@@ -31,3 +31,15 @@ function resetTasks() {
 function updatePoints() {
   document.getElementById("points").textContent = points;
 }
+function resetTasks() {
+  document.querySelectorAll("input[type=checkbox]").forEach(cb => cb.checked = false);
+  updatePoints();
+  alert("Tasks reset for the next day!");
+}
+
+function resetAll() {
+  document.querySelectorAll("input[type=checkbox]").forEach(cb => cb.checked = false);
+  points = 0;
+  updatePoints();
+  alert("Tasks and points reset!");
+}
