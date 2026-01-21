@@ -3,9 +3,10 @@
 /* -------------------------------------- */
 
 body {
-  font-family: Comic Sans MS;
+  font-family: "Comic Sans MS", "Chalkboard", "Marker Felt", "Segoe Print", cursive, sans-serif;
   text-align: center;
 }
+
 
 .profile {
   border: 3px solid #333;
@@ -163,7 +164,7 @@ body#isabella {
 
 body#isabella h1 {
   color: #ff69b4;
-  font-family: Comic Sans MS;
+  font-family: "Comic Sans MS", "Chalkboard", "Marker Felt", "Segoe Print", cursive, sans-serif;
 }
 
 body#isabella .profile {
@@ -327,7 +328,7 @@ body#bentley {
 
 body#bentley h1 {
   color: #1c3f94;
-  font-family: Comic Sans MS;
+   font-family: "Comic Sans MS", "Chalkboard", "Marker Felt", "Segoe Print", cursive, sans-serif;
 }
 
 body#bentley .profile {
