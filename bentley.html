@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bentley’s Tasks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="bentley">
+  <h1>Bentley’s Task List</h1>
+
+  <div class="profile">
+    <!-- Manchester City crest -->
+    <img src="images/mancitycrest.png" alt="mancitycrest" class="profile-icon">
+
+    <h2 id="kidName">Bentley (Points: <span id="points">0</span>)</h2>
+<div class="task-box">
+  <h3 class="task-box-title">⭐ Bentley’s Tasks ⭐</h3>
+  <ul class="task-list">
+    <li>
+      <label>
+        <input type="checkbox" data-points="5" onclick="toggleTask(this)">
+        <span class="task-text">Brush teeth</span>
+      </label>
+      <span class="task-points">5 pts</span>
+    </li>
+    <li>
+      <label>
+        <input type="checkbox" data-points="5" onclick="toggleTask(this)">
+        <span class="task-text">Make bed</span>
+      </label>
+      <span class="task-points">5 pts</span>
+    </li>
+        <li>
+      <label>
+        <input type="checkbox" data-points="4" onclick="toggleTask(this)">
+        <span class="task-text">Homework/Times Tables</span>
+      </label>
+      <span class="task-points">4 pts</span>
+    </li>
+    <li>
+      <label>
+        <input type="checkbox" data-points="4" onclick="toggleTask(this)">
+        <span class="task-text">Clothes ready</span>
+      </label>
+      <span class="task-points">4 pts</span>
+    </li>
+        <li>
+      <label>
+        <input type="checkbox" data-points="7" onclick="toggleTask(this)">
+        <span class="task-text">Hoover Room & Hall</span>
+      </label>
+      <span class="task-points">7 pts</span>
+    </li>
+        <li>
+      <label>
+        <input type="checkbox" data-points="10" onclick="toggleTask(this)">
+        <span class="task-text">(BP) Learn TT off by heart</span>
+      </label>
+      <span class="task-points">10 pts</span>
+    </li>
+            <li>
+      <label>
+        <input type="checkbox" data-points="10" onclick="toggleTask(this)">
+        <span class="task-text">(BP) Read a book and write what you liked and learnt</span>
+      </label>
+      <span class="task-points">10 pts</span>
+    </li>
+            <li>
+      <label>
+        <input type="checkbox" data-points="20" onclick="toggleTask(this)">
+        <span class="task-text">(BP) Wipe kitchen sides and sweep floor</span>
+      </label>
+      <span class="task-points">20 pts</span>
+    </li>
+  </ul>
+</div>
+
+    <input type="number" id="spend" placeholder="Spend points">
+    <button onclick="spendPoints()">Spend</button>
+  </div>
+
+<button class="reset-tasks" onclick="resetTasks()">Reset Tasks Only</button>
+<button class="reset-all" onclick="resetAll()">Reset Tasks + Points</button>
+  <a href="index.html"><button>Back to Menu</button></a>
+
+  <div class="progress-container">
+  <div class="progress-bar" id="progressBar"></div>
+</div>
+
+<p class="progress-label">Progress to next reward</p>
+
+
+  <script src="java.js"></script>
+</body>
+</html>
