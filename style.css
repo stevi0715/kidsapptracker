@@ -163,6 +163,7 @@ body#isabella {
 
 body#isabella h1 {
   color: #ff69b4;
+  font-family: Comic Sans MS;
 }
 
 body#isabella .profile {
@@ -326,7 +327,7 @@ body#bentley {
 
 body#bentley h1 {
   color: #1c3f94;
-  font-family: Arial, sans-serif;
+  font-family: Comic Sans MS;
 }
 
 body#bentley .profile {
@@ -505,7 +506,6 @@ body#bentley .profile {
     opacity: 0;
   }
 }
-
 
 
 
